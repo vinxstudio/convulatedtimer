@@ -90,7 +90,7 @@ const Timer = props => {
               .format("mm:ss.SSS")}
             </Typography>
             <Button variant="contained" color="primary" onClick={toggle} className={classes.button}>
-              {isActive ? "Pause" : "Start"}
+              {isActive ? "Pause" : "Play"}
             </Button>
             <Button variant="contained" color="secondary" onClick={reset}>
               Reset
